@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Temp Admin Request" max_length="40" name="x_81135_temp_admin_temp_admin_request" sizeclass="19" type="collection">
+        <element label="Give temp admin access to" max_length="32" name="u_admin_access_to" reference="sys_user" type="reference"/>
+        <element label="End Date" max_length="40" name="u_end_date" type="glide_date"/>
+        <element label="Start Date" max_length="40" name="u_start_date" type="glide_date"/>
+        <element label="Test HTML" max_length="65536" name="u_test_html" type="html"/>
+    </element>
+</database>
